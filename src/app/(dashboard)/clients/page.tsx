@@ -11,8 +11,6 @@ export default function Clients() {
       <TopButtons to={""}></TopButtons>
       <div className="flex flex-col gap-10">
         <Table></Table>
-        {/* <TablePagination></TablePagination> */}
-        <Pagination totalPages={10}></Pagination>
       </div>
     </>
   );
